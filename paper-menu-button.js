@@ -98,6 +98,8 @@ export const PaperMenuButton = Polymer({
         position: relative;
         border-radius: 2px;
         background-color: var(--paper-menu-button-dropdown-background, var(--primary-background-color));
+        overflow: hidden;
+        min-width: min-content;
 
         @apply --paper-menu-button-content;
       }
